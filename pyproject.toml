@@ -1,0 +1,15 @@
+[project]
+name = "book_catalog"
+version = "0.1.0"
+description = "GraphQL Demo"
+authors = [{name = "Satrajit Basu", email = "satrajit.87@gmail.com"}]
+readme = "README.md"
+requires-python = ">=3.11,<4.0"
+package-mode = false
+
+[tool.poetry.dependencies]
+strawberry-graphql = "^0.258.0"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+typing-extensions = "^4.12.2"
+
